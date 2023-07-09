@@ -180,3 +180,34 @@ margin: 30px;
 text-align: center;
 margin-top: 50px;
 }
+/* footer style */
+.footer-container{
+  display: flex;
+  background: #FFF8F3;
+  padding: 130px 230px;
+  margin-top: 100px;
+  gap: 100px;
+  /* justify-content: space-between; */
+}
+.footer-title{
+color: #181818;
+font-size: 30px;
+font-weight: 700;
+}
+.footer-description{
+color: #474747;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.footer-contact input[type="text"] ,.footer-contact input[type="email"] ,textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  color: #757575;
+  background-color: #FFF;
+  border: 0;
+}
+.footer-icon a{
+margin-right: 24px;
+}
